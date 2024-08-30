@@ -29,20 +29,22 @@
     color: black;
 }
 
+.content {
+    margin: 0;
+    text-align: center;
+}
+
 .promotional {
     background-color: yellow;
     padding: 100px;
 }
 
-.content img  {
+.promotional img  {
     border: 2px solid;
     border-radius:  6px;
     width: 200px;
     height: 120px;
-    margin: 1000000px;
-}
-
-.footer {
+    margin: 0px 8px;
 }
 
 
