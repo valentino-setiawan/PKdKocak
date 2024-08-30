@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;  
+}   
+
+.header {
+ background-color: black;
+ display: flex;
+ align-items: center;
+ color: white;
+}
+
+.header a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 2rem;
+}
+
+.head{
+    padding-right: 44rem;
+    padding-left: 2rem;
+}
+
+.welcome h1{
+    background-color: white;
+    text-align: center;
+    padding: 15rem;
+    color: black;
+}
+
+.promotional {
+    background-color: yellow;
+    padding: 100px;
+}
+
+.content img  {
+    border: 2px solid;
+    border-radius:  6px;
+    width: 200px;
+    height: 120px;
+    margin: 1000000px;
+}
+
+.footer {
+}
+
+
