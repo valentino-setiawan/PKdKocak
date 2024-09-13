@@ -1,28 +1,18 @@
+:root {
+    --BaseCol: #F3F3F3;
+    --Whatevertf: #22558a;
+}
+
 *{
     padding: 0;
     margin: 0;  
 }   
 
-.header {
- background-color: black;
- display: flex;
- align-items: center;
- color: white;
+body {
+    background-color: var(--BaseCol);
 }
 
-.header a{
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    padding: 2rem;
-}
-
-.head{
-    padding-right: 44rem;
-    padding-left: 2rem;
-}
-
-.welcome h1{
+.header h1{
     background-color: white;
     text-align: center;
     padding: 15rem;
@@ -34,17 +24,46 @@
     text-align: center;
 }
 
-.promotional {
+.Promotional {
     background-color: yellow;
     padding: 100px;
 }
 
-.promotional img  {
+.Promotional img  {
     border: 2px solid;
     border-radius:  6px;
     width: 200px;
     height: 120px;
     margin: 0px 8px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.PromoRed {
+    background-color: var(--BaseCol);
+    border: 2px solid var(--Whatevertf);
+    border-radius: 8px;
+    padding: 1rem 0.5rem 1rem;
+    min-width: fit-content;
+    max-width: fit-content;
+    margin: 1rem 2rem;
+    display: inline-block; 
+}
+
+.PromoRed h1 {
+    border: 2px solid var(--Whatevertf);
+    border-radius: 4px;
+    margin-top: 6px;
+
+
+
+}
+
+.PromoRed p {
+    margin-top: 6px;
+    border: 2px solid var(--Whatevertf);
+    border-radius: 4px;
+
 }
 
 
