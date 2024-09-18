@@ -4,64 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn English Website</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styleUN.css">
 </head>
 <body>
-    <div class="navbar">
+        <!-- Navbar gitu deh... -->
+    <nav>
+        <img src="Source/logoms.png">
         <h1 >Learn-English</h1>
         <a class="head" href="#header">About Us</a>
         <a class="head" href="#content">Exercises</a>
         <a class="head" href="#footer">Contact</a>
+        <a class="head" id="cuh" href="#1">mysterious fourth option</a>
+    </nav>
+        <!-- Pembuka website -->
+    <div class="header" id="header">
+        <div class="headerer">
+            <h1>Selamat Datang!</h1>
+            <h3>Di situs pembelajaran Bahasa Inggris Kami</h3>
+        </div>
     </div>
-<div class="header" id="header">
-    <h1>Welcome</h1>
 
-</div>
-    <div class="content" id="content">
-        <div class="Promotional">
-            <div class="PromoRed">
-                <img src="" alt="">
-                <h1>Test</h1>
-                <p>TestseT</p>
+        <!-- Pilihan Konten utama -->
+    <div class="Promotional" id="content">
+        <div class="PromoRed">
+            <a href=""> 
+                <img src="Source/openbook.png" alt="" class="RE-IM1">
+                <div class="RE-FL1">   
+                    <h1>Pembelajaran</h1>
+                    <p>Mendalami pengetahuan Bahasa Inggris anda dalam
+                    beberapa lapangan. 
+                </p>
+                </div>
+            </a>
             </div>
-            <div class="PromoRed">
-                <img src="" alt="">
-                <h1>Test</h1>
-                <p>TestseT</p>
-            </div>
-            <div class="PromoRed">
-                <img src="" alt="">
-                <h1>Test</h1>
-                <p>TestseT</p>
-            </div>
-            <!-- <img src="Source/IMG-10.jpg" alt="foto promosi">
-            <img src="Source/IMG-11.jpg" alt="foto promosi">
-            <img src="Source/IMG-12.jpg" alt="foto promosi"> -->
+        <div class="PromoRed">
+            <a href=""> 
+                <img src="Source/assignment.png" alt="" class="RE-IM2">
+                <div class="RE-FL2">    
+                    <h1>Latihan Soal</h1>
+                    <p>Praktikan pembelajaran Bahasa Inggris melalui beberapa Soal
+                    pertanyaan.
+                    </p>
+                </div>
+            </a>
         </div>
-        <div class="main-content" id="">
-            <div class="materi">
-                <h2>Materi</h2>
-                <p>Tempat materi pelajaran Inggris</p>
-            </div>
-            <div class="latihan">
-                <h2>Latihan</h2>
-                <p>Tempat latihan</p>
-            </div>
-            <div class="ujian">
-                <h2>Ujian</h2>
-                <p>Tempat ujian</p>
-            </div>
+        <div class="PromoRed">
+            <a href="/RE-CONT/quiz.html"> 
+                <img src="Source/test.pNg" alt=""class="RE-IM3">
+                    <div class="RE-FL3">
+                        <h1>Ujian</h1>
+                        <p>Bandingkan seberapa jauh telah belajar Bahasa 
+                        Inggris dengan tantangan ujian.
+                        </p>
+                    </div>
+            </a>
         </div>
-        <div class="preview">
-            <h2>Preview</h2>
-            <p>Disini hasil dari belajar bahasa Inggris</p>
-            <img src="Source/IMG-13.jpg" alt="Foto orang sukses">
         </div>
-    </div>
-    <div class="footer" id="footer">
-        <h2>About Us</h2>
+        <!-- A King of Ages -->
+        <img id="1" src="Source/PH-2.jpg" alt="Foto orang sukses">
+        </div>
+
+    <footer id="footer">    
         <h2>Social Media</h2>
-    </div>
+        <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+    </footer>
+
+    <script>feather.replace();</script>
+    <script src="script.js"></script>
 </body>
 </html>
