@@ -14,7 +14,7 @@
     align-items: center;
     flex-wrap: wrap;
     border: 4px solid var(--Sec);
-    background-color: var(--Sec);
+    background-color: var(--Sec2);
     border-radius: 2rem;
 }
 
@@ -71,11 +71,17 @@
 }
 
 .selectors a:nth-child(3) {
-    background-color: var(--Sec2);
-    border: solid 4px var(--Sec);
+    background-color: var(--Sec);
+    border: solid 4px var(--Sec2);
 }
 
 .selectors a:nth-child(4) {
     background-color: var(--Pent);
     border: solid 4px var(--Pent2);
+}
+
+@media (max-width: 435px) {
+    .selectors a{
+        scale: 65%;
+    }
 }
