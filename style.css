@@ -86,7 +86,7 @@ body {
 }
 
 .PromoRed:hover, .PromoRed:visited {
-    transform:skewx(-0.5deg) scale(103%);
+    transform:skewx(-1deg) scale(103%) translateX(5px);
     text-decoration: none;
 }
 
