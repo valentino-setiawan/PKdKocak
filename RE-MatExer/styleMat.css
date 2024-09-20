@@ -1,0 +1,130 @@
+.selectbox {
+    border: 8px solid var(--Sec2);
+    border-radius: 8px;
+    height: fit-content;
+    margin: 70px 3%;
+    background-color: var(--Main);
+    padding: 1rem 1rem;
+}
+
+.banner1, .banner2, .banner3, .banner4 {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 4px solid var(--Sec);
+    background-color: var(--Sec2);
+    border-radius: 2rem;
+    height: 140px;
+    
+}
+
+.banner1 h1, .banner2 h1, .banner3 h1, .banner4 h1 {
+    max-width: fit-content;
+}
+
+.banner1 img, .banner2 img, .banner3 img, .banner4 img {
+    height: 90px;
+    width: 100px;
+}
+
+.selectors1, .selectors2, .selectors3, .selectors4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.selectors1 a, .selectors2 a, .selectors3 a, .selectors4 a{   
+    text-decoration: none;
+    list-style: none;
+    height: fit-content; 
+    flex: 0 0 350px;
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 2rem 2rem 0;
+    display: flex;
+    align-items: flex-start;
+    color: var(--BaseCol);
+}   
+
+.selectors1 h2, .selectors2 h2, .selectors3 h2, .selectors4 h2 {
+    min-width: 230px;
+
+}
+
+.selectors1 img, .selectors2 img, .selectors3 img, .selectors4 img {
+    width: 120px;
+    height: 130px;
+}
+
+.banner1 {
+    background-color:var(--Ter) ;
+    border: solid 4px var(--BaseCol) ;
+    color: var(--Ter2) ;
+}
+
+.banner2 {
+    background-color:var(--Quart) ;
+    border: solid 4px var(--BaseCol) ;
+    color: var(--Quart2) ;
+}
+
+.banner3 {
+    background-color:var(--Sec) ;
+    border: solid 4px var(--BaseCol) ;
+    color: var(--Sec2) ;
+}
+
+.banner4 {
+    background-color:var(--Pent) ;
+    border: solid 4px var(--BaseCol) ;
+    color: var(--Pent2) ;
+}
+
+.selectors1 a {
+    background-color:var(--Ter) ;
+    border: solid 4px var(--Ter2) ;
+    transition: ease 0.5s;
+}
+
+.selectors1 a:hover {
+    transform:skewx(-1deg) scale(103%) translateX(5px);
+}
+
+.selectors2 a {
+    background-color:var(--Quart) ;
+    border: solid 4px var(--Quart2) ;
+    transition: ease 0.5s;
+}
+
+.selectors2 a:hover {
+    transform:skewx(-1deg) scale(103%) translateX(5px);
+}
+
+.selectors3 a {
+    background-color:var(--Sec2) ;
+    border: solid 4px var(--Sec) ;
+    transition: ease 0.5s;
+}
+
+.selectors3 a:hover {
+    transform:skewx(-1deg) scale(103%) translateX(5px);
+}
+
+.selectors4 a {
+    background-color:var(--Pent) ;
+    border: solid 4px var(--Pent2) ;
+    transition: ease 0.5s;
+}
+
+.selectors4 a:hover {
+    transform:skewx(-1deg) scale(103%) translateX(5px);
+}
+@media (max-width: 435px) {
+    .selectors a{
+        scale: 65%;
+    }
+}

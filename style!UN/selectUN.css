@@ -44,6 +44,11 @@
     margin: 2rem 2rem 0;
     display: flex;
     align-items: flex-start;
+    transition: ease 0.5s;
+}
+
+.selectors a:hover {
+    transform:skewx(-1deg) scale(103%) translateX(5px);
 }
 
 .selectors a:visited, .selectors a:link {
