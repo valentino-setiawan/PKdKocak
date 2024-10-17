@@ -2,7 +2,7 @@
     border: 8px solid var(--Sec2);
     border-radius: 8px;
     height: fit-content;
-    margin: 70px 3%;
+    margin: 2rem 1rem;
     background-color: var(--Main);
     padding: 1rem 1rem;
 }
